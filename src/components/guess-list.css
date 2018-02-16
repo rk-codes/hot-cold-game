@@ -1,0 +1,13 @@
+.guess-list{
+    /* border: 1px solid fuchsia; */
+    color: white;
+    list-style: none;
+    /* background: #11a8ab; */
+    display: block;
+}
+.guess-list li{
+    display: inline;
+    background-color: #1a4e95;
+    padding: 8px;
+    max-width: 20px;
+}

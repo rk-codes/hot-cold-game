@@ -1,0 +1,19 @@
+.guess-form{
+    height: 30%;
+    text-align: center;
+}
+input, button{
+    padding: 5px;
+    font-size: 1.2em; 
+    background: none;
+}
+input{
+    margin-bottom: 25px;
+    color: white;
+}
+button{
+    display: block;
+    margin-left: 40%;
+    margin-right: 40%;
+    color: white;
+}

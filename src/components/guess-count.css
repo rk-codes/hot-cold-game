@@ -1,0 +1,12 @@
+.guess-count{
+  
+    color: #979e94;
+    text-align: center;
+    margin: 10px;
+    height: 20%;
+    padding: 8px;
+}
+.guess-count span{
+    color: darkorange;
+    font-size: 1.4em;
+}
