@@ -22,7 +22,7 @@ export default class GuessForm extends React.Component{
         return(
             <form className="guess-form" onSubmit={(e) => this.handleSubmit(e)}>
                 <input type="text" placeholder="Enter your Guess" ref={(input) => this.numInput = input}/>
-                <button type="submit">Guess</button>
+                {this.props.showButton ? <button type="submit" >Guess</button> : null}
             </form>      
          );
     }
